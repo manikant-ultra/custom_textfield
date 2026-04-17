@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:custom_textfield/custom_textfield.dart';
+import 'package:flutter_custom_textfield_ui/custom_textfield.dart';
 
 void main() {
   testWidgets('CustomTextField renders correctly', (WidgetTester tester) async {
