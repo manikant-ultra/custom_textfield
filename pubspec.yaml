@@ -1,6 +1,5 @@
 name: custom_textfield
-description: "A new Flutter package project."
-version: 0.0.1
+description: "A customizable TextFormField widget with validation, error UI, password toggle, and flexible styling for Flutter apps.version: 0.0.1"
 homepage: https://github.com/manikant-ultra/custom_textfield
 repository: https://github.com/manikant-ultra/custom_textfield
 
