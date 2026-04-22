@@ -1,17 +1,27 @@
+/// A customizable TextField widget for Flutter.
+///
+/// Provides flexible styling, validation, and reusable UI.
+/// Useful for forms and input fields in Flutter apps.
+
 library custom_textformfield;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-
+/// A reusable custom text field widget.
+///
+/// Supports validation, icons, and custom styling.
 class CustomTextField extends StatefulWidget {
+  /// Controls the text being edited.
   final TextEditingController? controller;
   final String? label;
   final String? labelAbove;
   final bool isObscureText;
   final bool? readOnly;
   final TextInputType? textInputType;
+  /// Placeholder text displayed inside the field.
   final String? hintText;
   final TextStyle? hintTextStyle;
+  /// Border when the field is enabled.
   final OutlineInputBorder? enabledBorder;
   final Widget? suffixIcon;
   final int? maxlines;
@@ -23,7 +33,10 @@ class CustomTextField extends StatefulWidget {
   final Function(String)? onChanged;
   final VoidCallback? onTap;
   final String? errorMessage;
-
+  /// Creates a [CustomTextField].
+  ///
+  /// [controller] manages the text input.
+  /// [hintText] is shown when the field is empty.
   const CustomTextField({
     super.key,
     this.controller,

@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "flutter_custom_textfield_ui",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "dependencies": [
         "flutter"
       ],

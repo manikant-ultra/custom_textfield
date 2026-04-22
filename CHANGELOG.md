@@ -1,3 +1,9 @@
+## 1.0.3
+
+- Added example app demonstrating usage
+- Increased DartDoc coverage for public API
+- Improved package structure for better pub.dev scoring
+
 ## 1.0.2
 
 - Added MIT LICENSE file (OSI-approved)
