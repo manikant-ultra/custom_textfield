@@ -1,11 +1,11 @@
 {
   "roots": [
-    "custom_textfield"
+    "flutter_custom_textfield_ui"
   ],
   "packages": [
     {
-      "name": "custom_textfield",
-      "version": "0.0.1",
+      "name": "flutter_custom_textfield_ui",
+      "version": "1.0.0",
       "dependencies": [
         "flutter"
       ],
