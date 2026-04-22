@@ -21,5 +21,5 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  custom_textfield: ^0.0.1
+  flutter_custom_textfield_ui: ^1.0.0
 
