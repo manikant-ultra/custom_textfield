@@ -1,6 +1,6 @@
-# Flutter Custom TextField UI
+# 🚀 Flutter Custom TextField UI
 
-A highly customizable and reusable **TextField widget for Flutter** 🚀
+A highly customizable and reusable **TextField widget for Flutter**
 Designed to simplify form inputs with clean UI, validation, and flexible styling.
 
 ---
@@ -8,36 +8,42 @@ Designed to simplify form inputs with clean UI, validation, and flexible styling
 ## ✨ Features
 
 * 🎨 Fully customizable UI
-* 🧩 Reusable component
+* 🧩 Reusable and clean component
 * ✅ Built-in validation support
 * 🔒 Supports secure input (password fields)
-* 📱 Responsive & clean design
-* ⚡ Lightweight and easy to use
+* 📱 Responsive & modern design
+* ⚡ Lightweight and easy to integrate
 
 ---
 
 ## 📸 Preview
 
-<!-- Add your screenshots here -->
-
 <p align="center">
-  <img src="https://via.placeholder.com/300x600.png?text=TextField+UI" width="250"/>
+  <img src="https://via.placeholder.com/300x600.png?text=Custom+TextField" width="250"/>
 </p>
+
+> 📌 Replace the above image with your actual UI screenshot for better engagement
 
 ---
 
 ## 🚀 Getting Started
 
-Add dependency in your `pubspec.yaml`:
+Add the dependency in your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_custom_textfield_ui: ^1.0.0
+  flutter_custom_textfield_ui: ^1.0.3
+```
+
+Then run:
+
+```bash
+flutter pub get
 ```
 
 ---
 
-## 🛠 Usage
+## 🛠 Basic Usage
 
 ```dart
 import 'package:flutter_custom_textfield_ui/flutter_custom_textfield_ui.dart';
@@ -50,13 +56,14 @@ CustomTextField(
 
 ---
 
-## 🎯 Advanced Example
+## 🎯 Advanced Usage
 
 ```dart
 CustomTextField(
   controller: controller,
   hintText: "Email",
-  prefixIcon: Icon(Icons.email),
+  prefixIcon: const Icon(Icons.email),
+  obscureText: false,
   validator: (value) {
     if (value == null || value.isEmpty) {
       return "Email is required";
@@ -80,6 +87,13 @@ CustomTextField(
 | obscureText   | For password fields        |
 | enabledBorder | Custom border styling      |
 
+---
+
+## 📦 Example
+
+Check the `/example` folder for a complete working demo.
+
+---
 
 ## 🤝 Contributing
 
@@ -87,7 +101,6 @@ Contributions are welcome!
 Feel free to open issues or submit pull requests.
 
 ---
-
 
 ## 👨‍💻 Author
 
@@ -99,3 +112,5 @@ Flutter Developer 🚀
 ## ⭐ Support
 
 If you like this package, please ⭐ it on pub.dev and GitHub!
+
+---
