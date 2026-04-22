@@ -2,7 +2,7 @@ name: flutter_custom_textfield_ui
 description: "A customizable TextFormField widget with validation, error UI, password toggle, and flexible styling for Flutter apps.version: 0.0.1"
 homepage: https://github.com/manikant-ultra/custom_textfield
 repository: https://github.com/manikant-ultra/custom_textfield
-version: 1.0.1
+version: 1.0.2
 
 environment:
   sdk: ^3.11.1

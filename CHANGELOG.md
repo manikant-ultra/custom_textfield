@@ -1,3 +1,9 @@
+## 1.0.2
+
+- Added MIT LICENSE file (OSI-approved)
+- Improved documentation with DartDoc comments
+- Fixed pub.dev score issues (license + documentation)
+
 ## 1.0.1
 
 - Improved README with better documentation and usage examples
